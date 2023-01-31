@@ -1,0 +1,28 @@
+  {"lesProduits": [
+  {
+    "nomproduit": "Laine",
+    "prixunitaire": "10",
+    "ref": "LN064863"
+  },
+  {
+    "nomproduit": "Balle",
+    "prixunitaire": "25",
+    "ref": "BL0657621"
+  },
+  {
+    "nomproduit": "Bois",
+    "prixunitaire": "5",
+    "ref": "BS96543364"
+  },
+  {
+    "nomproduit": "Serveur",
+    "prixunitaire": "100",
+    "ref": "SR056547723"
+  },
+  {
+    "nomproduit": "Ecran",
+    "prixunitaire": "50",
+    "ref": "EC064892314"
+  }
+]
+}
