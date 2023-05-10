@@ -28,6 +28,8 @@
         <activity android:name=".GestionProduitActivity"></activity>
         <activity android:name=".DetailProduitActivity"></activity>
         <activity android:name=".CreationProduitActivity"></activity>
+        <activity android:name=".GestionFactureActivity"></activity>
+        <activity android:name=".FactureVenteActivity"></activity>
     </application>
 
 </manifest>

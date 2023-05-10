@@ -23,6 +23,11 @@
     "nomproduit": "Ecran",
     "prixunitaire": "50",
     "ref": "EC064892314"
-  }
+  },
+    {
+      "nomproduit": "bouteille",
+      "prixunitaire": "5",
+      "ref": "BE248963458"
+    }
 ]
 }

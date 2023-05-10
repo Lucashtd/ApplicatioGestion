@@ -77,8 +77,8 @@ public class GestionProduitActivity  extends AppCompatActivity {
     }
 
     private void initDonnees(){
-        Log.i("Main : ", "testBase : "+ db.testBase());
-        if(db.testBase() == 0){
+        Log.i("Main : ", "testBase : "+ db.testBaseProduit());
+        if(db.testBaseProduit() == 0){
             String fichier = lectureFichierLocale();
             recupProduit(fichier);
         } else {

@@ -46,6 +46,8 @@ public class CreationProduitActivity extends AppCompatActivity {
                 Log.i("Main ", "Creer produit : " + produits.toString());
                 db.ajoutProduit(produits);
                 db.close();
+                Intent gestProd = new Intent(view.getContext(), GestionProduitActivity.class);
+                view.getContext().startActivity(gestProd);
             }
         });
     }

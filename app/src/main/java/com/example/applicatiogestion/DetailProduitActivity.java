@@ -51,6 +51,8 @@ public class DetailProduitActivity extends AppCompatActivity{
                 db.updateProduit(leNom, lePrix, laRef);
                 Log.i("Main ", "Maj produit : " + db.getProduits());
                 db.close();
+                Intent gestProd = new Intent(view.getContext(), GestionProduitActivity.class);
+                view.getContext().startActivity(gestProd);
             }
         });
 

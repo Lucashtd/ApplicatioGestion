@@ -1,0 +1,32 @@
+{"lesFactures": [
+  {
+    "type": "Vente",
+    "date": "15/04/2023",
+    "prix_ht": "150",
+    "nom": "Vente Bois",
+    "nomProduit": "Bois"
+  },
+  {
+    "type": "Vente",
+    "date": "20/03/2023",
+    "prix_ht": "100",
+    "nom": "Vente Serveur",
+    "nomProduit": "Serveur"
+  },
+  {
+    "type": "Vente",
+    "date": "01/05/2023",
+    "prix_ht": "150",
+    "nom": "Vente Ecran",
+    "nomProduit": "Ecran"
+  },
+  {
+    "type": "Vente",
+    "date": "24/01/2023",
+    "prix_ht": "100",
+    "nom": "Vente Bouteilles",
+    "nomProduit": "Bouteille"
+  }
+]
+
+}

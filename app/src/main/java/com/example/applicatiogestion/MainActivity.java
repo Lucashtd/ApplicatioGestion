@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.applicatiogestion.DAO.BDHelper;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -22,6 +24,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent gestionProduits = new Intent(view.getContext(), GestionProduitActivity.class);
                 view.getContext().startActivity(gestionProduits);
+            }
+        });
+
+        btnGestionFactures.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent gestionFactures = new Intent(view.getContext(), GestionFactureActivity.class);
+                view.getContext().startActivity(gestionFactures);
             }
         });
     }
