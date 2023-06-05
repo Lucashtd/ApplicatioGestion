@@ -25,7 +25,6 @@ public class GestionFactureActivity extends AppCompatActivity {
 
         Button btnFactureAchat = findViewById(R.id.btnFactureAchat);
         Button btnFactureVente = findViewById(R.id.btnFactureVente);
-        Button btnCreerFacture = findViewById(R.id.btnCreerFacture);
         Button btnRetourGF = findViewById(R.id.btnRetourGF);
 
         btnRetourGF.setOnClickListener(new View.OnClickListener() {
