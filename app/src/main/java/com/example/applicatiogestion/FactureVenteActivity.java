@@ -43,6 +43,14 @@ public class FactureVenteActivity extends AppCompatActivity {
         Button btnRetourFV = findViewById(R.id.btnRetourFV);
         Button btnCreerFactureFV = findViewById(R.id.btnCreerFactureFV);
 
+        btnCreerFactureFV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent creerFactureVente = new Intent(view.getContext(), CreationFactureVente.class);
+                view.getContext().startActivity(creerFactureVente);
+            }
+        });
+
         btnRetourFV.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

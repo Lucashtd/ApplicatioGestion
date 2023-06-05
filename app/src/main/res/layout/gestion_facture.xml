@@ -12,32 +12,20 @@
         android:text="Facture d'Achats"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.349" />
 
     <Button
         android:id="@+id/btnFactureVente"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Facture de Ventes"
-        app:layout_constraintBottom_toTopOf="@+id/btnCreerFacture"
+        app:layout_constraintBottom_toTopOf="@+id/btnRetourGF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnFactureAchat"
-        app:layout_constraintVertical_bias="0.531" />
-
-    <Button
-        android:id="@+id/btnCreerFacture"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Créer une Facture"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.544" />
+        app:layout_constraintTop_toBottomOf="@+id/btnFactureAchat" />
 
     <Button
         android:id="@+id/btnRetourGF"
@@ -46,8 +34,7 @@
         android:text="Retour"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCreerFacture"
-        app:layout_constraintVertical_bias="0.245" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

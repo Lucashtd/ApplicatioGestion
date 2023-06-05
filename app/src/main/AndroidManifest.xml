@@ -30,6 +30,7 @@
         <activity android:name=".CreationProduitActivity"></activity>
         <activity android:name=".GestionFactureActivity"></activity>
         <activity android:name=".FactureVenteActivity"></activity>
+        <activity android:name=".CreationFactureVente"></activity>
     </application>
 
 </manifest>
